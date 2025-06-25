@@ -1,0 +1,63 @@
+body {
+  background: linear-gradient(135deg, #0e69b1 0%, #3c9bd6 100%);
+  min-height: 100vh;
+}
+
+.login-card {
+  border-radius: 1.25rem;
+  overflow: hidden;
+  margin-top: 3rem;
+  background: #fff;
+  box-shadow: 0 6px 32px rgba(0,0,0,0.10), 0 1.5px 8px rgba(0,0,0,0.10);
+  padding: 2.5rem 2rem 2rem 2rem;
+}
+
+.login-header img {
+  width: 64px;
+  height: 64px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.login-header h2 {
+  font-weight: 700;
+  color: #1877c0;
+  margin-top: 0.8em;
+  margin-bottom: 0.2em;
+}
+
+.form-label {
+  font-weight: 500;
+  color: #1877c0;
+}
+
+.form-control:focus {
+  border-color: #1877c0;
+  box-shadow: 0 0 0 0.2rem rgba(24,119,192,0.15);
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #1877c0 70%, #3c9bd6 100%);
+  border: none;
+  font-weight: 600;
+  letter-spacing: .5px;
+  transition: background 0.2s;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  background: linear-gradient(90deg, #135b95 70%, #1877c0 100%);
+}
+
+.login-footer {
+  margin-top: 1.5em;
+  font-size: 0.98em;
+}
+
+.alert-danger {
+  font-size: 0.98em;
+  font-weight: 500;
+  border-radius: 0.5em;
+  margin-bottom: 1em;
+  padding: 0.7em 1em;
+}
